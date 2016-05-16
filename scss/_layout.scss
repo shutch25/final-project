@@ -1,0 +1,36 @@
+//Grid
+
+.row {
+	width: 100%;
+}
+
+.column {
+  	float: left;
+  	text-align: center;
+  	border:1px solid black;
+  	padding:50px;
+}
+
+.grid-whole {
+  	width: 100%;
+}
+
+.grid-half {
+  	width: 50%;
+}
+
+.grid-third {
+  	width: 33.33%;
+}
+
+.grid-whole-lg {
+  	width: 100%;
+}
+
+.grid-half-lg {
+  	width: 50%;
+}
+
+.grid-third-lg {
+  	width: 33.33%;
+}

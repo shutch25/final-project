@@ -1,0 +1,19 @@
+.site-content {
+	h1 {
+	font-family: $heading-font;
+	color: $light-blue;
+	font-size: 2em;
+    font-weight: lighter;
+    margin:0;
+    text-align:left;
+	}
+
+	p{
+	font-family: $body-text;
+	color: $dark-blue;
+	}
+}
+
+.welcome {
+	text-align: left;
+}

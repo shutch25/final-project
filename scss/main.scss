@@ -1,0 +1,54 @@
+/* 
+Project Name: Loneeaters
+Client: Self
+Author: Sarah Hutchinson
+*/
+
+@import "normalize";
+@import "variables";
+@import "header";
+@import "content";
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+	font-family: $body-text;
+}
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+     content: " ";
+     display: table;
+}
+.clearfix:after {
+     clear:both;
+}
+
+.is-hidden {
+     display: none;
+}
+.is-visible {
+     display: block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+
+
