@@ -2,18 +2,32 @@
 	h1 {
 	font-family: $heading-font;
 	color: $light-blue;
-	font-size: 2em;
     font-weight: lighter;
     margin:0;
     text-align:left;
 	}
+}
 
-	p{
+p, ol {
 	font-family: $body-text;
 	color: $dark-blue;
-	}
+	font-size: 1rem;
 }
 
 .welcome {
+	//background-image: url("../images/lentil-salad.jpg");
+	min-width:100%;
 	text-align: left;
 }
+
+.welcome-img {
+	display:none;
+}
+
+//.row {
+//	border: 1px solid blue;
+//}
+//
+//.columns {
+//	border: 1px solid pink;
+//}

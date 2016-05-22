@@ -7,21 +7,13 @@
 }
 
 .logo {
-	display:none;
-  	@media only screen and (min-width: $break-medium) {
-    	display: block;
-    	max-width: 100%;
-    	height:auto;
-    	
-    	//how do you makes repsonsive? need it in a container?
-  }
   	
 }
 
 .title {
 	font-family: $title-font;
 	color: $dark-blue;
-	font-size: 12vw;
+	font-size: 10vw;
     font-weight: bolder;
     margin:0;
     text-align: center;
@@ -36,7 +28,7 @@
 .sub-title {
 	font-family: $heading-font;
 	color: $light-blue;
-	font-size: 8vw;
+	font-size: 7vw;
     font-weight: lighter;
     margin:0;
     text-align: center;
@@ -51,6 +43,7 @@
 	width: 100%;
 	font-family: $heading-font;
 	background-color: $grey;
+	margin: 2vw 0;
 	
 	a {
 		color: $dark-blue;
@@ -60,16 +53,20 @@
 }
 
 .nav-item {
-	font-size: 8vw;
+	font-size: 7vw;
 	font-family: $heading-font;
 }
 
 .row {
-  border: 2px solid blue;
+
   text-align: center;
 }
 
 .columns {
-  border: 2px solid pink;
+  
+}
+
+.site-footer {
+	background-color: $grey;
 }
 
