@@ -1,4 +1,3 @@
-@import "normalize";
 @import "variables";
 
 //Mobile First//
@@ -18,24 +17,31 @@
     margin:0;
     text-align: center;
    	@media only screen and (min-width: $break-medium) {
-   	font-size: 4em;
+   	font-size: 7vw;
   }
   	@media only screen and (min-width: $break-large) {
-   	font-size: 5em;
+   	font-size: 5vw;
   }
 }
 
 .sub-title {
 	font-family: $heading-font;
 	color: $light-blue;
-	font-size: 7vw;
+	font-size: 7.5vw;
     font-weight: lighter;
     margin:0;
     text-align: center;
+    @media only screen and (min-width: $break-medium) {
+   	font-size: 5vw;
+   }
+   @media only screen and (min-width: $break-large) {
+   	font-size: 4vw;
+   }
+  	
 }
 
 .search {
-	display:none;
+	
 }
 
 .nav {
@@ -43,7 +49,7 @@
 	width: 100%;
 	font-family: $heading-font;
 	background-color: $grey;
-	margin: 2vw 0;
+	margin: 2vw 0 0 0;
 	
 	a {
 		color: $dark-blue;
@@ -53,20 +59,22 @@
 }
 
 .nav-item {
-	font-size: 7vw;
+	font-size: 5.5vw;
 	font-family: $heading-font;
+	
+	@media only screen and (min-width: $break-medium) {
+   	font-size: 5vw;
+  }
+  	@media only screen and (min-width: $break-large) {
+   	font-size: 3.4vw;
+  }
 }
 
 .row {
-
   text-align: center;
-}
 
-.columns {
-  
-}
+  .search {
+  text-align: left;
+  }
 
-.site-footer {
-	background-color: $grey;
 }
-

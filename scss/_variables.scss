@@ -4,7 +4,15 @@
 
 $title-font: 'Handlee', cursive;
 $heading-font: 'Just Another Hand', cursive;
-$body-text: 'Open Sans', sans-serif;
+
+@mixin body-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9rem;
+	color: $dark-blue;
+	@media only screen and (min-width: $break-large) {
+   	font-size: 1.1rem;
+   	}
+} 
 
 /* COLOURS */
 
