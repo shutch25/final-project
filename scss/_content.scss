@@ -36,21 +36,15 @@ p {
   	margin: 0 0 30px 0;
 }
 
-
-.columns {
-	border: 1px solid white;
-}
-
 .site-container {
 	margin: 2vw auto;
 
 }
-//
-//.border {
-//	background-color: grey;
-//	border: 1px black solid;
-//}
 
+.overlay:hover {
+	background-color: white;
+	color: red;
+}
 
 /* flickerty carosel */
 
